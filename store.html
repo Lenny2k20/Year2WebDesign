@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="main.css">
+
+        <title>Store</title>
+    </head>
+    <body>
+        
+        <!--Navbar-->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">RetroKits</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="store.html">Store<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="login.html">Login</a>
+                            <a class="dropdown-item" href="register.html">Register</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-toolbar">
+                <a class="nav-item nav-link" href="checkout.html">
+                   <button type="button" class="btn btn-secondary ml-2">           Checkout <span class="badge badge-light" id="checkout"></span>         </button>
+                </a>
+            </div>
+        </nav>
+        <style>
+        body{
+            background-image: url(Images/pexels-photo-114296.jpeg)
+            }
+        </style>
+        
+        <!-- Store Page -->
+
+        <h1 style="text-align: center";>Store</h1>
+
+        <div class="container">
+
+
+            <div class="card">
+                <div class="card-header">
+                    Product 1
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Manchester United Away Jersey 1990</h5>
+                    <img id="JerseyPhoto" style="width: 150px; height: 150px;" src="Images/ezgif.com-webp-to-jpg_1.jpg">
+                    <p class="card-text">Replica jersey from Manchester United season 1990/91</p>
+                    <p>€45.00</p>
+                    <a href="#" class="btn btn-primary addtocart">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    Product 2
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Real Madrid Retro Jersey 1995</h5>
+                    <img id="JerseyPhoto" style="width: 150px; height: 150px;" src="Images/real-madrid-icon-tee-white.jpg"/>
+                    <p class="card-text">Replica jersey from Real Madrid season 1995/96</p>
+                    <p>€45.00</p>
+                    <a href="#" class="btn btn-primary addtocart">Add to Cart</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    Product 3
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">FC Bayern Munich Retro Jersey 1998</h5>
+                    <img id="JerseyPhoto" style="width: 150px; height: 150px;" src="Images/calcio-vintage-club-1995-97-adidas-bayern-munich-home-shirt-s-13632266305676_2048x.webp"/>
+                    <p class="card-text">Replica jersey from Bayern Munich season 1998/99</p>
+                    <p>€45.00</p>
+                    <a href="#" class="btn btn-primary addtocart">Add to Cart</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    Product 4
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Inter Milan Retro Jersey 2000</h5>
+                    <img id="JerseyPhoto" style="width: 150px; height: 150px;" src="Images/665-189.jpg"/>
+                    <p class="card-text">Replica jersey from Inter Milan season 2000/01</p>
+                    <p>€45.00</p>
+                    <a href="#" class="btn btn-primary addtocart">Add to Cart</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    Product 5
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">FC Barcelona Retro Jersey 1995</h5>
+                    <img id="JerseyPhoto" style="width: 150px; height: 150px;" src="Images/Webp.net-compress-image_31_1200x1200.webp"/>
+                    <p class="card-text">Replica jersey from Barcelona season 1995/96</p>
+                    <p>€45.00</p>
+                    <a href="#" class="btn btn-primary addtocart">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+             <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: black; color: white" >
+                © 2020 Copyright:
+                <a class="text-light" href="https://mdbootstrap.com/"></a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+            <!--jQuery and Bootstrap Bundle (includes Popper) -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+           
+        </html>
